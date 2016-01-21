@@ -2,6 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+## makeCacheMatrix, function exists of multiple functions
+## set, get, setinverse, getinverse
+## this functions make it posible to store and retrieve an inverted matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         minv <- NULL
@@ -17,6 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## cacheSolve, function purpuse is to calculate the matrix and cache the matrix
+## in the second run the matrix is retrieved from cache
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
